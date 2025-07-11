@@ -124,8 +124,53 @@
 	;
 	    flex-wrap: wrap;
 	}
+/* 	 menu link   */
+
+.ast-desktop .ast-primary-header-bar .main-header-menu > .menu-item {
+    line-height: 30px;
+}
+.main-header-menu .menu-item, #astra-footer-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items {
+    -js-display: flex;
+    display: flex
+;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.main-header-menu .menu-item {
+    position: relative;
+}
 	  
-      
+.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link {
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -js-display: flex;
+    display: flex
+;
+}
+.ast-builder-menu-1 .menu-item > .menu-link {
+    color: var(--ast-global-color-5);
+}
+.main-header-menu .menu-link, .main-header-menu>a {
+    text-decoration: none;
+    padding: 0 1em;
+    display: inline-block;
+    transition: all .2s linear;
+}
+	  
   </style>
 </head>
 <body>
